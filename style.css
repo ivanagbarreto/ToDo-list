@@ -28,6 +28,7 @@
 .todo-app h2{
     color: black;
     display: flex;
+    font-size: 40px;
     align-items: center;
     margin-bottom: 20px;
     font-family: "Cedarville Cursive", cursive;
@@ -56,8 +57,7 @@ input{
     font-size: 10px;
     border: none; 
     border-bottom: 1px solid #d0d0d0;
-    background: rgba(247, 242, 236, 0.5);
-    backdrop-filter: blur(12px);  
+   background: transparent;
 }
 #input-box{
     background: transparent;
